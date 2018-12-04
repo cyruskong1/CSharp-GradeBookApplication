@@ -1,8 +1,11 @@
 ﻿
 using GradeBook.Enums;
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Linq;
+=======
+>>>>>>> 814104b92c95f29f4e291e6d5e1bbd0c0e00517c
 
 namespace GradeBook.GradeBooks
 {
@@ -12,7 +15,6 @@ namespace GradeBook.GradeBooks
         {
             Type = GradeBookType.Ranked;
         }
-
         public override char GetLetterGrade(double averageGrade)
         {
             if(Students.Count < 5)
