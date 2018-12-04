@@ -18,10 +18,7 @@ namespace GradeBook.GradeBooks
             if (Students.Count < 5)
             {
                 Console.WriteLine("Ranked grading requires at least 5 students with grades in order to properly calculate a student's overall grade.");
-<<<<<<< HEAD
                 return;
-=======
->>>>>>> e01ed33d8684dbda44e2f93e934d39e517a43861
             }
             else
             {
@@ -35,10 +32,7 @@ namespace GradeBook.GradeBooks
             if (Students.Count < 5)
             {
                 Console.WriteLine("Ranked grading requires at least 5 students with grades in order to properly calculate a student's overall grade.");
-<<<<<<< HEAD
                 return;
-=======
->>>>>>> e01ed33d8684dbda44e2f93e934d39e517a43861
             }
             else
             {
