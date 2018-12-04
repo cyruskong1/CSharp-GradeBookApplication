@@ -12,7 +12,6 @@ namespace GradeBook.GradeBooks
         {
             Type = GradeBookType.Ranked;
         }
-
         public override char GetLetterGrade(double averageGrade)
         {
             if(Students.Count < 5)
